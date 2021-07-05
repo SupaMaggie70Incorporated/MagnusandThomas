@@ -6,9 +6,8 @@ print(platform.system())
 print(platform.node())
 printableList = [platform.machine(),platform.processor(),platform.system(),platform.node()]
 print(printableList)
-for itemtoreplace in printableList:
-    item = itemtoreplace
-    itemIndex = printableList.index(itemtoreplace)
+for item in printableList:
+    itemIndex = printableList.index(item)
     item.replace('A','replacedC')
     item.replace('B','replacedM')
     item.replace('C','replacedE')
