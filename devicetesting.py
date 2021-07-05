@@ -1,0 +1,25 @@
+import platform
+print(platform.machine())
+print(platform.processor())
+print(platform.system())
+print(platform.node())
+machineType = platform.machine()
+processorType = platform.processor()
+systemType = platform.system()
+nodeType = platform.node()
+printableList = [machineType,processorType,systemType,nodeType]
+for itemtoreplace in printableList:
+    item = itemtoreplace
+    itemIndex = printableList.index()
+    item.replace('A','replacedO')
+    item.replace('B','replacedV')
+    item.replace('C','replacedU')
+    item.replace('D','replacedA')
+    item.replace('E','replacedJ')
+    item.replace('F','replacedL')
+    item.replace('G','replacedR')
+    item.replace('H','replacedW')
+    item.replace('I','replacedS')
+    item.replace('J','replacedD')
+systemInfo = ((platform.machine()),(platform.processor()),(platform.system()),(platform.node()))
+print(systemInfo)
